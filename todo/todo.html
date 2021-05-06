@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Todo App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div id="app">
+            <h1>Todo App</h1>
+            <form name="regform" id="regform" action="http://localhost:8080/todo/AddServlet">
+                <input type ="text" id="todoinput" name="todoItem" placeholder="Add your new todo">
+                <button id="add" onclick="addTodo()"> Add </button>
+            </form>
+            <table class="todo" id="todo_table">
+            </table>
+
+        <form name="clearform" id="clearform" action="http://localhost:8080/todo/DeleteServlet">
+            <button id="clear" onclick="clearAll()">CLEAR ALL</button>
+        </form>
+
+        </div>
+    </body>
+    <script type="text/javascript" src ="script.js"></script>
+</html>

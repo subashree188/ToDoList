@@ -1,0 +1,48 @@
+#add, #clear{
+    margin: 5px;
+	padding: 5px 8px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #1A2C7D; 
+	text-align: center;
+	text-decoration: none;
+	border-radius: 6px;
+	border: none;
+}
+
+.delete{
+	font-size: 16px;
+	color: #fff;
+	background-color: red; 
+	text-align: center;
+	text-decoration: none;
+	border: none;
+}
+
+#todoinput{
+    width: 30%;
+	border: 2px solid #0278ae;
+	border-radius: 6px;
+	padding: 2px;
+}
+
+#todo_table tr td{
+	margin-left: 15%;
+	margin-top: 6%;
+	border-collapse: collapse;
+	border: 2px solid #0278ae;
+	text-align: center;
+	width: 400px;
+}
+
+#todo_table tr .delete{
+	margin-left: 15%;
+	margin-top: 6%;
+	border-collapse: collapse;
+	text-align: center;
+	width: 50px;
+}
+#app{
+	padding: 0px 300px;
+	margin-top: 100px;
+}
